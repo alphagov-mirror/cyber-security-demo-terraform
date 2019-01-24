@@ -26,10 +26,10 @@ the Internet.
 
 |Resource|Details|`Class` Tag|`Result` Tag|
 |-|-|-|:-:|
-|SG - inbound rule|TCP port 1433 with source of 0.0.0.0/0|AwsEc2SecurityGroupIngressOpen|fail|
-|SG - inbound rule|TCP ports 80,1433 with source of 0.0.0.0/0|AwsEc2SecurityGroupIngressOpen|fail|
-|SG - inbound rule|TCP port 80 with source of 0.0.0.0/0|AwsEc2SecurityGroupIngressOpen|pass|
-|SG - inbound rule|TCP port 1433 with source of 1.1.1.1/32|AwsEc2SecurityGroupIngressOpen|pass|
+|aws_ec2_security_group_ingress_open_condition_1|TCP port 1433 with source of 0.0.0.0/0|AwsEc2SecurityGroupIngressOpen|fail|
+|aws_ec2_security_group_ingress_open_condition_2|TCP ports 80,1433 with source of 0.0.0.0/0|AwsEc2SecurityGroupIngressOpen|fail|
+|aws_ec2_security_group_ingress_open_condition_3|TCP port 80 with source of 0.0.0.0/0|AwsEc2SecurityGroupIngressOpen|pass|
+|aws_ec2_security_group_ingress_open_condition_4|TCP port 1433 with source of 1.1.1.1/32|AwsEc2SecurityGroupIngressOpen|pass|
 
 ### References
 
