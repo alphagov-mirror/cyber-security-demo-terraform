@@ -14,4 +14,4 @@ This test case is intended to look for non-GDS user accounts in trust relationsh
 |Resource|Details|`Class` Tag|`Result` Tag|
 |-|-|-|:-:|
 |aws_iam_user_role_trust_relationships_condition_1|all user accounts belong to GDS users (622626885786)|AwsIamRolesWithTrustRelationship|pass|
-|aws_iam_user_role_trust_relationships_condition_2|one or more non-GDS user accounts have been seen in a trusted relationship list|AwsIamRolesWithTrustRelationship|fail|
+|aws_iam_user_role_trust_relationships_condition_2|one or more non-GDS user accounts appear in a trust relationship list|AwsIamRolesWithTrustRelationship|fail|
